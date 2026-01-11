@@ -1,0 +1,3 @@
+# Redirect /app to the wallet app subdomain
+RewriteEngine On
+RewriteRule ^app/?$ https://silver-pay.silver-umbrella.com/ [R=302,L]
