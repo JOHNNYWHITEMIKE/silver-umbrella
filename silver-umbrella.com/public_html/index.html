@@ -74,23 +74,32 @@
 </head>
 <body>
     <header>
-        <h1 style="color: black;">Welcome to Silver Umbrella</h1>
-        <p style="color: black;">Your secure and easy payment solution.</p>
+        <nav style="display:flex;justify-content:space-between;align-items:center;padding:10px 20px;background:#222;color:#fff;">
+          <div style="font-weight:700;font-size:1.1em;">Silver Umbrella</div>
+          <div style="display:flex;gap:20px;align-items:center;">
+            <a href="/products.html" style="color:#fff;text-decoration:none;font-weight:600;">Products</a>
+            <a href="https://silver-pay.silver-umbrella.com" style="color:#fff;text-decoration:none;font-weight:600;">Silver-Pay</a>
+          </div>
+        </nav>
     </header>
-    <h2 style="color: black;">What is Silver Umbrella?</h2>
-    <p>Silver Umbrella is a revolutionary payment platform that allows you to send and request money securely using unique Silver-IDs. No more complicated bank transfers or apps – just simple, instant payments.</p>
-    <div class="container">
-        <h2>Features</h2>
-        <ul style="list-style: none; padding: 0;">
-            <li>🔒 Secure transactions</li>
-            <li>⚡ Instant payments</li>
-            <li>📱 PWA for mobile</li>
-            <li>🌐 Web-based access</li>
+
+    <main class="container">
+      <section style="text-align:left;">
+        <h2 style="color:black;margin-top:30px;">Products</h2>
+        <p>Explore our offerings and integrations for payments, wallets, and developer APIs.</p>
+
+        <ul>
+          <li><strong>Silver-Pay:</strong> Wallet & payments platform — <a href="https://silver-pay.silver-umbrella.com">Open Wallet</a></li>
+          <li><strong>Silver-API:</strong> Developer APIs for payments and accounts</li>
+          <li><strong>Enterprise:</strong> Custom integrations & compliance</li>
         </ul>
-    </div>
-    <a href="https://silver-pay.silver-umbrella.com" class="cta-button">Get Started with Silver-Pay</a>
+
+        <p>If you'd like the previous static welcome page preserved for reference, it's available at <code>/index.legacy.html</code>.</p>
+      </section>
+    </main>
+
     <footer>
-        <p>&copy; 2025 Silver Umbrella. All rights reserved.</p>
+        <p style="text-align:center;margin-top:60px;color:#666;">&copy; 2026 Silver Umbrella. All rights reserved.</p>
     </footer>
 </body>
 </html>
