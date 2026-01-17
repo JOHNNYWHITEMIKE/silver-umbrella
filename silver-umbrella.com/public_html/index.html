@@ -1,31 +1,96 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Silver-Umbrella Payments</title>
-    <meta name="description" content="Silver-Umbrella payments and checkout experiences." />
-    <link rel="icon" type="image/png" href="/icons/icon-192.png?v=1" />
-    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png?v=1" />
-    <meta name="theme-color" content="#0ea5e9" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="apple-mobile-web-app-title" content="Silver-Umbrella" />
-    <link rel="manifest" href="/manifest.webmanifest?v=1" />
-
-    <meta property="og:title" content="Silver-Umbrella Payments" />
-    <meta property="og:description" content="Silver-Umbrella payments and checkout experiences." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="/icons/icon-512.png" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="/icons/icon-512.png" />
-    <script type="module" crossorigin src="/assets/index-DR8udW9s.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-GJ1HXWTv.css">
-  </head>
-
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="silver-icon.png">
+    <title>Silver Umbrella - Secure Payments</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            background-image: url('silver-icon.png');
+            background-size: 104% 106%;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: black;
+            text-shadow: 1px 1px 0 #00ff00, -1px -1px 0 #00ff00, 1px -1px 0 #00ff00, -1px 1px 0 #00ff00, 0 0 10px #00ff00;
+            text-align: center;
+        }
+        header {
+            background-color: #28a745;
+            color: silver;
+            text-shadow: 0 0 10px white;
+            padding: 0px 20px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+        .cta-button:hover {
+            background-color: #218838;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            margin-top: 100px;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: black;">Welcome to Silver Umbrella</h1>
+        <p style="color: black;">Your secure and easy payment solution.</p>
+    </header>
+    <h2 style="color: black;">What is Silver Umbrella?</h2>
+    <p>Silver Umbrella is a revolutionary payment platform that allows you to send and request money securely using unique Silver-IDs. No more complicated bank transfers or apps – just simple, instant payments.</p>
+    <div class="container">
+        <h2>Features</h2>
+        <ul style="list-style: none; padding: 0;">
+            <li>🔒 Secure transactions</li>
+            <li>⚡ Instant payments</li>
+            <li>📱 PWA for mobile</li>
+            <li>🌐 Web-based access</li>
+        </ul>
+    </div>
+    <a href="https://silver-pay.silver-umbrella.com" class="cta-button">Get Started with Silver-Pay</a>
+    <footer>
+        <p>&copy; 2025 Silver Umbrella. All rights reserved.</p>
+    </footer>
+</body>
 </html>
